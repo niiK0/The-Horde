@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6515080113669153474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6515080113669153472}
+  - component: {fileID: 6515080113669153473}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Spawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6515080113669153472
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6515080113669153474}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.18, y: -0.43, z: -12.541538}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6515080113669153473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6515080113669153474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24602828fb52f024db9152b0eae5c934, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zombie: {fileID: 205026981454189760, guid: 91b79cb50726a464292ef7eb0a56bf98, type: 3}
+  reinforced: {fileID: 205026981454189760, guid: eef300b9a8127cc47a4458767ee5467d,
+    type: 3}
+  devil: {fileID: 205026981454189760, guid: ba22eda070a97ca458df8afad7eb296e, type: 3}
+  boss: {fileID: 205026981454189760, guid: 6a33785a26018954c804e0b97fd22767, type: 3}
+  spLocation:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  spawnRate: 1
+  currentRound: 1
+  totalRoundMobs: 0
+  totalRoundMobsRemaining: 0
+  totalMobsSpawned: 0
+  totalPresentMobs: 0
+  totalMobTypes: 
+  totalMobTypesRemaining: 
+  totalMobTypesSpawned: 
+  totalPresentMobTypes: 
+  maxMobsSpawned: 10
+  bossSP: {fileID: 0}
+  roundText: {fileID: 0}

@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6815887582545015466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3105122407806727022}
+  - component: {fileID: 4341073814708138157}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3105122407806727022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6815887582545015466}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4341073814708138157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6815887582545015466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3017a5d140226d84ca3fd48a0d9894b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PistolShot
+    clip: {fileID: 8300000, guid: 2a102f0337d4d4d41bbc32306c270460, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixer: {fileID: 1620639506626436523, guid: 9774aa230a847c9459edcc31e86a072f, type: 2}
+  - name: HeavyPistolShot
+    clip: {fileID: 8300000, guid: 2a102f0337d4d4d41bbc32306c270460, type: 3}
+    volume: 0.2
+    pitch: 0.75
+    loop: 0
+    source: {fileID: 0}
+    mixer: {fileID: 1620639506626436523, guid: 9774aa230a847c9459edcc31e86a072f, type: 2}
+  - name: SniperShot
+    clip: {fileID: 8300000, guid: 9022357b7cdea8147a0aafa9227f7898, type: 3}
+    volume: 0.1
+    pitch: 0.65
+    loop: 0
+    source: {fileID: 0}
+    mixer: {fileID: 1620639506626436523, guid: 9774aa230a847c9459edcc31e86a072f, type: 2}
+  - name: RifleShot
+    clip: {fileID: 8300000, guid: 9022357b7cdea8147a0aafa9227f7898, type: 3}
+    volume: 0.1
+    pitch: 1.35
+    loop: 0
+    source: {fileID: 0}
+    mixer: {fileID: 1620639506626436523, guid: 9774aa230a847c9459edcc31e86a072f, type: 2}
+  - name: Reload
+    clip: {fileID: 8300000, guid: dd61cadc849b4d8418c1630ad9374a4b, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixer: {fileID: 1620639506626436523, guid: 9774aa230a847c9459edcc31e86a072f, type: 2}
+  - name: BGSound
+    clip: {fileID: 8300000, guid: 8b753bcc10adec548b9d4c1bc8a864b1, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    mixer: {fileID: -4426797226232427950, guid: 9774aa230a847c9459edcc31e86a072f,
+      type: 2}
+  - name: SwordSlash
+    clip: {fileID: 8300000, guid: 0cc062cbfe7ec3f45a18c50e415b6969, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixer: {fileID: 1620639506626436523, guid: 9774aa230a847c9459edcc31e86a072f, type: 2}
+  - name: GetHit
+    clip: {fileID: 8300000, guid: 3ed5fd13fe3242d4f97209f30fe81f70, type: 3}
+    volume: 0.3
+    pitch: 0.8
+    loop: 0
+    source: {fileID: 0}
+    mixer: {fileID: 1620639506626436523, guid: 9774aa230a847c9459edcc31e86a072f, type: 2}
+  - name: BossRound
+    clip: {fileID: 8300000, guid: 44375e00dcf533141873f4b6055f95f6, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixer: {fileID: -4426797226232427950, guid: 9774aa230a847c9459edcc31e86a072f,
+      type: 2}
+  - name: DamageEnemy
+    clip: {fileID: 8300000, guid: 83d2f7e2ded63c145b6637e11deb25ae, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixer: {fileID: 1620639506626436523, guid: 9774aa230a847c9459edcc31e86a072f, type: 2}
+  - name: KillEnemy
+    clip: {fileID: 8300000, guid: 87940f8a64b88f04b99161b1ad137c18, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixer: {fileID: 1620639506626436523, guid: 9774aa230a847c9459edcc31e86a072f, type: 2}
+  - name: Dash
+    clip: {fileID: 8300000, guid: bd70e0f9e8e887a47980d505619d08ce, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixer: {fileID: 1620639506626436523, guid: 9774aa230a847c9459edcc31e86a072f, type: 2}
+  - name: Pickup
+    clip: {fileID: 8300000, guid: 9db2ca61de4d8904ebe26bd0b142c15e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixer: {fileID: 1620639506626436523, guid: 9774aa230a847c9459edcc31e86a072f, type: 2}
